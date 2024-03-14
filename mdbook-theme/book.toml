@@ -1,0 +1,19 @@
+[book]
+authors = ["lzzsG"]
+language = "en"
+multilingual = false
+src = "src"
+title = "testF"
+
+
+[output.html]
+mathjax-support = true
+site-url = "/lzzs/"
+
+default-theme = "light"
+preferred-dark-theme = "navy"
+
+git-repository-url = "https://github.com/rust-lang/mdBook"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/rust-lang/mdBook/edit/master/guide/{path}"
+
