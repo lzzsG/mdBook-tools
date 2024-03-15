@@ -62,7 +62,7 @@ def create_summary_file(src_directory, output_file="SUMMARY.md", ignore_dirs=[],
     print(f"SUMMARY.md has been created at {output_file}")
 
 # 调整以下变量以适应您的项目结构
-src_directory = "C:/Users/lz/Desktop/thOSbook"  # 您存放Markdown文件的顶级目录
+src_directory = "C:/pyth/to/your/folder"  # 您存放Markdown文件的顶级目录
 ignore_dirs = ["ignore_this_folder", "figs", "examples"]  # 要忽略的文件夹名列表
 # 在调用时选择是否启用自然排序
 create_summary_file(src_directory, ignore_dirs=ignore_dirs, use_natural_sort=True)
